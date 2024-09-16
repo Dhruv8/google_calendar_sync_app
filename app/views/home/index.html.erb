@@ -1,0 +1,6 @@
+
+<h1>Connect Your Google Calendar</h1>
+
+<p>To access and sync your Google Calendar events with our application, click the button below to log in with Google.</p>
+
+<%= button_to 'Connect to Google Calendar', session_google_login_path, method: :get, :data => {turbo: "false"}, class: 'btn btn-primary' %>
